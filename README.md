@@ -1,20 +1,90 @@
-Airport Challenge
+[![Build Status](https://travis-ci.org/Willibaur/airport-Ruby.svg?branch=master)](https://travis-ci.org/Willibaur/airport-Ruby)
 =================
 
-This is my first solo project for the first weekend Challenge on Makers Academy.
+Airport Emulator JavaScript
+=================
 
-This project is about a system to control the flow of planes, landing and take off,
-always based on weather conditions.
+Task
+-----
 
-I was requested to apply all technologies learned until now, TDD, BDD, SRP, RsPec,
-Ruby and some other tools.
+This is a solution for controlling the flow of planes at an airport. The planes can land and take off if the weather is sunny.
 
-One assumption from my side was the fact that every `plane` instances I create is `in air`.
+Occasionally it may be stormy weather, in which case no planes can land or take off.  
 
-I could concluded this challenge without viewing any solution posted on the web, it should be more elegant ways to solve it, but this was my own approach. 
+Here are the user stories used.
 
-Thanks to Makers Academy for all its support on this learning process
+```
+As an air traffic controller
+So I can get passengers to a destination
+I want to instruct a plane to land at an airport and confirm that it has landed
 
-Is a public repo and can be found on:
+As an air traffic controller
+So I can get passengers on the way to their destination
+I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
 
-[William Bautista-Romero Github](https://github.com/Willibaur/airport_challenge)
+As an air traffic controller
+To ensure safety
+I want to prevent takeoff when weather is stormy
+
+As an air traffic controller
+To ensure safety
+I want to prevent landing when weather is stormy
+
+As an air traffic controller
+To ensure safety
+I want to prevent landing when the airport is full
+
+As the system designer
+So that the software can be used for many different airports
+I would like a default airport capacity that can be overridden as appropriate
+
+
+Technologies used
+-----------------
+
+* Continuois integration
+  * Travis CI
+  * Coveralls
+
+  * Testing
+    * RsPec
+
+  * Back end framework
+    * Ruby
+
+
+Functionalities requested
+-------------------------
+
+- Instruct or prevent to land and take off
+- Create required capacity
+- Flow control of planes at airport.
+- Change plane status
+
+Setting up testing environment
+------------------------------
+
+In order to play around with this app you need to clone the repo shown below and
+execute the following commands to be functional.
+
+```sh
+$ git clone git@github.com:Willibaur/airport-Ruby.git
+$ cd airport-Ruby
+$ bundle install
+```
+
+If you want to run all tests written previously, you need to execute:
+
+```sh
+rspec
+```
+
+This will return a list with all feature and unit tests implemented.
+
+
+```
+
+Contributors
+------------
+
+* [William Bautista](https://github.com/Willibaur)
