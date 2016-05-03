@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/Willibaur/airport-Ruby.svg?branch=master)](https://travis-ci.org/Willibaur/airport-Ruby)
+
+[![Coverage Status](https://coveralls.io/repos/github/Willibaur/airport-Ruby/badge.svg?branch=master)](https://coveralls.io/github/Willibaur/airport-Ruby?branch=master)
 =================
 
 Airport Emulator JavaScript
@@ -37,7 +39,7 @@ I want to prevent landing when the airport is full
 As the system designer
 So that the software can be used for many different airports
 I would like a default airport capacity that can be overridden as appropriate
-
+```
 
 Technologies used
 -----------------
@@ -46,11 +48,11 @@ Technologies used
   * Travis CI
   * Coveralls
 
-  * Testing
-    * RsPec
+* Testing
+  * RsPec
 
-  * Back end framework
-    * Ruby
+* Back end framework
+  * Ruby
 
 
 Functionalities requested
@@ -82,7 +84,6 @@ rspec
 This will return a list with all feature and unit tests implemented.
 
 
-```
 
 Contributors
 ------------
