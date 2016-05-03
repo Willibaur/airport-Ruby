@@ -1,9 +1,7 @@
-[![Build Status](https://travis-ci.org/Willibaur/airport-Ruby.svg?branch=master)](https://travis-ci.org/Willibaur/airport-Ruby)
-
-[![Coverage Status](https://coveralls.io/repos/github/Willibaur/airport-Ruby/badge.svg?branch=master)](https://coveralls.io/github/Willibaur/airport-Ruby?branch=master)
+[![Build Status](https://travis-ci.org/Willibaur/airport-Ruby.svg?branch=master)](https://travis-ci.org/Willibaur/airport-Ruby) [![Coverage Status](https://coveralls.io/repos/github/Willibaur/airport-Ruby/badge.svg?branch=master)](https://coveralls.io/github/Willibaur/airport-Ruby?branch=master)
 =================
 
-Airport Emulator JavaScript
+Airport Emulator Ruby
 =================
 
 Task
