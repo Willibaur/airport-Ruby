@@ -25,7 +25,7 @@ class Airport
     @weather = weather
     fail "Cannot take off due to storm" if @weather.condition == true
     @plane = plane
-    @plane.status("on air")
+    @plane.status("in air")
     @planes.delete(plane)
   end
 

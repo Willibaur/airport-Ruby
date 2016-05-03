@@ -2,6 +2,9 @@ require 'plane'
 
 describe Plane do
 
-    it { is_expected.to respond_to :status }
+  subject(:plane) { described_class.new }
 
+  it 'returns plane status' do
+    expect(plane.status).to eq "in air"
+  end
 end
